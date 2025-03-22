@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Finder</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Pokémon Finder</h1>
+  <input type="text" id="searchInput" placeholder="Nombre o ID">
+  <button id="searchBtn">Buscar</button>
+  <div id="navigation">
+    <button id="prevBtn">⬅️</button>
+    <button id="nextBtn">➡️</button>
+  </div>
+  <div id="result"></div>
+
+  <h2>Historial de Búsqueda</h2>
+  <ul id="history"></ul>
+
+  <script type="module" src="./dist/index.js"></script>
+</body>
+</html>
